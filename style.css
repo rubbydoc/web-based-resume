@@ -12,3 +12,7 @@ body{
 .bi-list{
     color:white
 }
+
+.nav-link:hover{
+    color: #3BBA9C;
+}
