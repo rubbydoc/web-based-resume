@@ -1,6 +1,7 @@
 
 body{
     background-color:#2E3047 ;
+    font-family: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
 }
 
 .nav-link, .navbar-brand{
@@ -15,4 +16,7 @@ body{
 
 .nav-link:hover{
     color: #3BBA9C;
+}
+#sidebar{
+    position: fixed;
 }
