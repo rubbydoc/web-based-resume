@@ -1,5 +1,14 @@
-.row{
-    /* background-color: aqua; */
-    height: 600px;
+
+body{
+    background-color:#2E3047 ;
 }
 
+.nav-link, .navbar-brand{
+    color: #c7cee2;
+}
+
+
+
+.bi-list{
+    color:white
+}
