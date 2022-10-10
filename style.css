@@ -1,6 +1,6 @@
 
 body{
-    background-color:#2E3047 ;
+    background-color:#0c0908 ;
     font-family: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
 }
 
@@ -20,3 +20,26 @@ body{
 #sidebar{
     position: fixed;
 }
+
+#landing {
+    height: 500px;
+}
+
+.about, .skills{
+    height:700px
+}
+
+@media only screen and (max-width: 767px) {
+    .about{
+        height: 1000px;
+    }
+    }
+  
+
+    
+@media only screen and (max-width: 575px) {
+    #skill{
+        display: flex;
+        justify-content: center;
+    }
+    }
