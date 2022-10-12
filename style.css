@@ -27,7 +27,7 @@ body{
     position: fixed;
 }
 
-#landing {
+.landing {
     height: 500px;
 }
 
@@ -175,4 +175,8 @@ body{
 
         #projects{
             margin-top: 200px;
+        }
+
+        .navbar-nav .nav-link.active{
+            color: #3BBA9C !important;
         }
