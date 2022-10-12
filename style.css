@@ -1,12 +1,18 @@
+.nav-link, .navbar-brand{
+    color: #c7cee2;
+    font-family: monospace;
+
+}
+
+
 
 body{
     background-color:#0c0908 ;
-    font-family: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
+    font-family: 'Poppins'
 }
 
-.nav-link, .navbar-brand{
-    color: #c7cee2;
-}
+
+
 
 
 
@@ -14,7 +20,7 @@ body{
     color:white
 }
 
-.nav-link:hover{
+.nav-link:hover, .card-text{
     color: #3BBA9C;
 }
 #sidebar{
@@ -26,15 +32,13 @@ body{
 }
 
 .about, .skills, .experiences{
-    height:700px
+    height:800px
 }
 
 @media only screen and (max-width: 767px) {
     .about{
         height: 1000px;
     }
-
-   
     }
   
 
@@ -139,7 +143,32 @@ body{
 
             .skills{
                 height: 1000px;
+                
             }
         }
 
+        @media only screen and (max-width: 575PX) {
+
+            .skills{
+                margin-bottom:500px;
+            }
+
+            .about{
+                margin-bottom:100px
+            }
+        }
       
+
+        .card{
+            border: 2px solid #3BBA9C;
+            background-color: transparent;
+        }
+        
+
+        .card-title{
+            color: white;
+        }
+
+        #certifications{
+            margin-top: 80px;
+        }
