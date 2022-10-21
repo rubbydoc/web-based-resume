@@ -12,7 +12,13 @@ body{
 }
 
 
+#resume{
+    text-decoration: none;
+}
 
+.me{
+    border-radius: 1000px;
+}
 
 
 
